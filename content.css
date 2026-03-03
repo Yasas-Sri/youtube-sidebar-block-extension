@@ -1,0 +1,21 @@
+body.yt-sidebar-blocked ytd-watch-next-secondary-results-renderer,
+body.yt-sidebar-blocked #secondary,
+body.yt-sidebar-blocked #secondary-inner,
+body.yt-sidebar-blocked ytd-watch-flexy[flexy] #secondary.ytd-watch-flexy {
+  display: none !important;
+}
+
+body.yt-sidebar-blocked ytd-watch-flexy[flexy][is-two-columns_] #primary.ytd-watch-flexy {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+body.yt-sidebar-blocked ytd-watch-flexy[flexy] #columns.ytd-watch-flexy {
+  justify-content: center !important;
+}
+
+body.yt-sidebar-blocked .ytp-autonav-endscreen-upnext-container,
+body.yt-sidebar-blocked .ytp-suggested-action,
+body.yt-sidebar-blocked .ytp-endscreen-content {
+  display: none !important;
+}
