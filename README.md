@@ -21,7 +21,7 @@ youtube-sidebar-blocker/
 └── icon128.jpeg        # Extension icon (128×128)
 ```
 
----
+
 
 ## Installation (Chrome)
 
@@ -32,7 +32,7 @@ youtube-sidebar-blocker/
 5. Select the extension folder.
 6. The extension icon will appear in your toolbar.
 
----
+
 
 ## Usage
 
@@ -45,5 +45,5 @@ youtube-sidebar-blocker/
 
 Your preference is saved and will persist across browser restarts.
 
----
+
 
