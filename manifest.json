@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Sidebar Blocker",
+  "version": "1.0",
+  "description": "Hides the recommended videos sidebar on YouTube watch pages.",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["content.css"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.jpeg",
+      "48": "icon48.jpeg",
+      "128": "icon128.jpeg"
+    }
+  },
+  "icons": {
+    "16": "icon16.jpeg",
+    "48": "icon48.jpeg",
+    "128": "icon128.jpeg"
+  }
+}
